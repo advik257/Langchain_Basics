@@ -18,9 +18,9 @@ env/
 .env.*
 !.env.example
 
-# ── Jupyter ──────────────────────────────────────────────
-.ipynb_checkpoints/
-*.ipynb
+# # ── Jupyter ──────────────────────────────────────────────
+# .ipynb_checkpoints/
+# *.ipynb
 
 # ── IDEs ─────────────────────────────────────────────────
 .vscode/
@@ -91,6 +91,6 @@ data/processed/
 uploads/
 *.csv
 *.parquet
-.pdf
+*.pdf
 pdfs/
 pdfs*/
