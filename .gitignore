@@ -11,6 +11,7 @@ build/
 .venv/
 venv/
 env/
+.env*
 
 # ── Environment & secrets ────────────────────────────────
 .env
@@ -90,3 +91,6 @@ data/processed/
 uploads/
 *.csv
 *.parquet
+.pdf
+pdfs/
+pdfs*/
