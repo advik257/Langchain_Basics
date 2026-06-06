@@ -94,3 +94,11 @@ uploads/
 *.pdf
 pdfs/
 pdfs*/
+
+qdrant_data/
+qdrant_easy/
+weaviate_data/
+.venv/
+__pycache__/
+*.pyc
+.env
