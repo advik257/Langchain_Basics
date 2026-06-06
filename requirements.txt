@@ -99,6 +99,9 @@ pandas
 
 # OPIK (optional - experiment tracking and observability)
 opik
+arxiv==1.4.8
+wikipedia
+tavily-python
 
 # ============================================================================
 # DEVELOPMENT & TESTING (optional)
