@@ -89,7 +89,8 @@ matplotlib
 # RAG EVALUATION (required for Notebook 10)
 # ============================================================================
 # Ragas Framework (RAG evaluation)
-ragas
+ragas==0.3.9
+langchain-google-vertexai
 
 # HuggingFace Datasets (required by Ragas)
 datasets
