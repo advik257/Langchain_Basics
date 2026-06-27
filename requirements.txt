@@ -141,3 +141,30 @@ tavily-python
 #   - Some packages may require additional system dependencies
 #
 # ============================================================================
+
+# =============================================================================
+# Docling (docling_document_parsing.ipynb)
+# =============================================================================
+docling==2.55.1
+docling-core[chunking]
+langchain-docling
+
+# Docling optional extras (uncomment as needed):
+# pip install 'docling[easyocr]'    # For EasyOCR support
+# pip install 'docling[vlm]'        # For Vision-Language Models
+# pip install 'docling[asr]'        # For Audio transcription
+# pip install 'docling[tesserocr]'  # For Tesseract OCR
+# pip install 'docling[ocrmac]'     # For macOS native OCR
+
+# =============================================================================
+# Unstructured (unstructured_document_parsing.ipynb)
+# =============================================================================
+unstructured==0.18.15
+langchain-unstructured
+unstructured-inference
+unstructured[pdf,docx,xlsx,pptx,html,md,image,email]
+python-docx
+unstructured[local-inference]
+# Unstructured extras for file format support:
+# Install with: pip install "unstructured[pdf,docx,xlsx,pptx,html,md,image,email]"
+# Or install all: pip install "unstructured[all-docs]"
